@@ -1,10 +1,15 @@
+/* TODO - Using destructuring change the array to contain the following names 'Sean', 'Stephen', 'Chris', 'John', 'Daniel', and 'Jamie'. 
+    Then order the names alphabetically.
+*/
 let names = ['John', 'Tom', 'Mike', 'Adam', 'Tony', 'Simon'];
-[names[0], names[1], names[2], names[3], names[4], names[5]] = ['Sean', 'Stephen', 'Chris', 'John', 'Daniel', 'Jamie'];
+console.log(names);
 
-let [person1, person2, person3, person4, person5, person6] = names;
-[person1, person2, person3, person4, person5, person6] = [person3, person5, person6, person4, person1, person2];
-console.log([person1, person2, person3, person4, person5, person6]);
-
+/* TODO - Using destructuring 
+    - set a variable called 'name' for the name property
+    - set a variable called 'age' for the years property
+    - set a variable called 'jobTtitle' for the title property
+    - set a variable called 'isAdmin' and set it to false if the property doesn't exist
+*/
 let object = {
     name: 'John',
     years: 30,
@@ -13,15 +18,10 @@ let object = {
     }
 };
 
-let {
-    name,
-    years: age,
-    job: {
-        title: jobTitle
-    },
-    isAdmin = false
-} = object;
-
+let name = object.name;
+let age = object.years;
+let jobTitle = object.job.title;
+let isAdmin = object.isAdmin || false;
 console.log(name);
 console.log(age);
 console.log(jobTitle);
