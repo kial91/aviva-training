@@ -1,6 +1,6 @@
 /**
  * There is a slight problem with Norwich City F.C's new signing, Bonjo Sheltree.
- * The football club are unable to add them into their database because he can play in multiple positions.
+ * The football club are unable to add him into their database, because he can play in multiple positions.
  *
  * Create a new interface or type alias with the previous footballer properties and allow footballers to have a position of:
  *
@@ -9,11 +9,13 @@
  * - 'midfielder'
  * - 'striker'
  *
- * Then create a function which returns a string with the following information. Players can only play in a maximum of two positions:
+ * Then create a function which returns a string with the following information.
  *
  * "#{footballerName} plays as a #{position}"
  *
- * Or if they have multiple positions:
+ * *Bonus*
+ * 
+ * if they have multiple positions:
  *
  * "#{footballerName} plays as a #{positionOne} or #{positionTwo}"
  *
