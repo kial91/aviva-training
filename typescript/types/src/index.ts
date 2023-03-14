@@ -7,19 +7,18 @@
         - width
     - colour
 */
-let cars = [
+let cars = [];
 
-];
 cars.forEach((car) => {
-    console.log(`${car.model} - (${car.year})`)
-    console.log(`Manufacturer: ${car.manufacturer}`);
-    console.log(`Colour: ${car.colour}`);
-    console.log(`Size: ${car.dimensions.height * car.dimensions.width}`);
+  console.log(`${car.model} - (${car.year})`);
+  console.log(`Manufacturer: ${car.manufacturer}`);
+  console.log(`Colour: ${car.colour}`);
+  console.log(`Size: ${car.dimensions.height * car.dimensions.width}`);
 });
 
-//TODO - Fix the code below so 'value' can be assigned to 'firstName'.
+// TODO - Fix the code below so 'value' can be assigned to 'firstName'.
 let value: unknown;
-value = "John";
+value = 'John';
 
 let firstName: string = value;
 console.log(firstName);
