@@ -8,7 +8,7 @@
  * - Shirt number => 9
  * - Salary => 1000000
  *
- * The type or an interface should be generic.
+ * The type or an interface should be generic. Not to be confused with generic types!
  *
  * Using the above, now create a function which returns the shirt number of a footballer
  *

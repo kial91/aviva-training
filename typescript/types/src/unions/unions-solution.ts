@@ -9,6 +9,12 @@ interface MultiSkilledFootballer {
   salary: number;
 }
 
+/**
+ *
+ * @param {MultiSkilledFootballer} footballer
+ * @returns {string} footballer's name and position/s
+ */
+ 
 function footballerNameAndPosition(footballer: MultiSkilledFootballer): string {
   const footballerInfo = `${footballer.name} plays as a`;
 
