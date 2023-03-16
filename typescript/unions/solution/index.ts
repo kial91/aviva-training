@@ -15,7 +15,7 @@ interface MultiSkilledFootballer {
  * @returns {string} footballer's name and position/s
  */
 
-function footballerNameAndPosition(footballer: MultiSkilledFootballer): string {
+function footballerNameAndPositions(footballer: MultiSkilledFootballer): string {
   const footballerInfo = `${footballer.name} plays as a`;
 
   if (typeof footballer.position === 'string') {
