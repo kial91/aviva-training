@@ -27,7 +27,7 @@ Using the `array-methods` exercise as an example, this is how your exercise fold
    |-- .gitignore
    |-- index.html
    |-- package.json 
-   |--- tsconfig.json (if TypeScript exercise)
+   |-- tsconfig.json (if TypeScript exercise)
 ```
 
 ### Exercises
