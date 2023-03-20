@@ -1,9 +1,6 @@
 # Aviva Training
 JavaScript and TypeScript exercises (and solutions) for the Aviva training sessions.
 
-## JavaScript
-Contains a number of exercises (and their solutions) based on the topics covered in the JavaScript training session.
-
 ### Setup
 Unzip the `node_modules.zip` into the desired folder(s) of the exercise(s) you would like to work on.
 
@@ -30,6 +27,7 @@ Using the `array-methods` exercise as an example, this is how your exercise fold
    |-- .gitignore
    |-- index.html
    |-- package.json 
+   |--- tsconfig.json (if TypeScript exercise)
 ```
 
 ### Exercises
